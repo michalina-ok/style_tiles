@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style tile</title>
+    <style>
+        /* basic styling - delete/edit if you want */
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        section {
+            margin: 4em 1em;
+        }
+        .color-sample {
+            width: 100px;
+            height: 100px;
+            background: #ccc;
+            display: inline-block;
+        }
+        h1 {
+            font-size: 32px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        h2 {
+            font-size: 24px; 
+            font-family: 'Times New Roman', Times, serif;
+        }
+        p {
+            margin-bottom: 1em;
+            font-family: 'Segoe UI', sans-serif;
+        }
+        .copy {
+            margin-bottom: 0;
+        }
+        .meta {
+            color: #aaa;
+        }
+        .link {
+            font-family: 'Segoe UI', sans-serif;
+        }
+        button {
+            border-radius: 4px;
+            width: 150px;
+            height: 45px;
+            border: 1px black solid;
+        }
+        button:hover {
+            box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        }
+    </style>
+</head>
+<body>
+    <section id="project-info">
+        <h4>Style tile 1</h4>
+        <p>Style tile version 1.0</p>
+    </section>
+    <section id="colors">
+        <h4>Colors</h4>
+        <div class="color-sample" style="background-color: #1a2a95"></div>
+        <div class="color-sample" style="background-color: #FBFAF5"></div>
+        <div class="color-sample" style="background-color: #000000"></div>
+        <div class="color-sample" style="background-color: #748b97"></div>
+        <div class="color-sample" style="background-color: #066dac"></div>
+    </section>
+    <section id="images">
+        <h4>Image style</h4>
+        <img src="/meeting.jpg">
+        <img src="/family.jpg">
+        <img src="/hands.jpg">
+    </section>
+    <section id="buttons">
+        <h4>Buttons</h4>
+        <button style="background-color: #066dac; color: #FBFAF5; border: none">Primary action</button>
+        <button style="background-color: #FBFAF5; color: #000000">Secondary action</button>
+    </section>
+    <section id="text">
+        <h1>This is a headline</h1>
+        <p class="meta">Font: Times New Roman, 32px, 700, #000</p>
+        <h2>This is a subtitle</h2>
+        <p class="meta">Font: Times New Roman, 24px, 700, #000</p>
+        <p class="copy">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi omnis, labore cum itaque incidunt perspiciatis inventore voluptate fugiat accusamus, alias architecto. Dignissimos, tempora voluptate error nobis praesentium mollitia reprehenderit aspernatur sint cumque maiores consectetur. Quidem mollitia dolorem voluptates, deleniti reprehenderit ex in quaerat dolores eum laboriosam aliquam dignissimos exercitationem corrupti.</p>
+        <p class="meta">Font: Segoe UI, 16px, #000</p>
+        <a class="link" href="#" style="color:#000000; text-decoration: underline;">This is a text-link</a>
+    </section>
+    <section id="adjectives">
+        <h4>Adjectives</h4>
+        <h3>Clean</h3>
+        <h3>Reliable</h3>
+        <h3>Conservative</h3>
+    </section>
+</body>
+</html>
